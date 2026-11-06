@@ -431,3 +431,9 @@ form button:hover {
  background: var(--c-field);
 }
 
+/*updatedAt 横並び*/
+.todo-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
